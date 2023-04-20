@@ -1,0 +1,29 @@
+/* Style the inventory list */
+
+.inventoryList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.inventoryItem {
+  background-color: #f0f8ff; /* Change the background color of the item card */
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.3s;
+}
+
+.inventoryItem:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.inventoryItem h2 {
+  margin-bottom: 1rem;
+  color: #5c6bc0; /* Change the title color */
+}
+
+.inventoryItem p {
+  margin-bottom: 0.5rem;
+}

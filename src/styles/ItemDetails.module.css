@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.detail {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  background-color: #f0f0f0;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
+
+.backButton {
+  display: block; /* Added this line */
+  margin-left: auto; /* Added this line */
+  margin-right: auto; /* Added this line */
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  max-width: 200px; /* Optional: Set a maximum width for the button */
+}
+
+.backButton:hover {
+  background-color: #0366d6;
+}

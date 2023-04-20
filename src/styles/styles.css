@@ -1,0 +1,93 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a nice background and font for the application */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  color: #333;
+}
+
+/* Style the container element */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > *:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* Style the search bar and center it */
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 15vh;
+  margin-bottom: 0;
+}
+
+.search-bar-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar-container input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 400px;
+}
+
+.search-bar-container button[type="submit"] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: background-color 0.3s;
+}
+
+.search-bar-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.no-results {
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.loading {
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.add-keyword-message {
+  color: #ff8c00;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-align: center;
+}
