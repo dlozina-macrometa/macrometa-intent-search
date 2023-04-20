@@ -4,7 +4,7 @@ import styles from "../styles/RecommendationsList.module.css";
 
 const RecommendationsList = ({ recommendations, clickHandler }) => (
   <div className={styles.recommendationsSection}>
-    <h1>Recommendations</h1>
+    <h1>Trending</h1>
     <div className={styles.recommendationsList}>
       {recommendations.map((item, index) => (
         <Link
